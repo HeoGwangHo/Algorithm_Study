@@ -26,7 +26,7 @@ func Combination(count: Int, cur: Int) {
         if map[i][j] == 0 {
             map[i][j] = 1
             
-            Combination(count: count + 1, cur: cur + 1)
+            Combination(count: count + 1, cur: c + 1)
             
             map[i][j] = 0
         }
